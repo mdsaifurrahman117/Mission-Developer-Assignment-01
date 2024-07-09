@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+body {
+            height: 100vh;
+            width: 100vw;
+}
+nav {
+            padding: 17px 0px;
+}
+section {
+            padding: 100px 0px;
+}
+h1, h2, h3 {
+            font-family: "Azeret Mono", monospace;
+            font-weight: 800;
+}
+h4, h5, h6 {
+            font-family: "Azeret Mono", monospace;
+            font-weight: 600;
+}
+img {
+            width: 100%;
+}
+ul li {
+            list-style: none;
+            font-size: 15px;
+            font-family: "Azeret Mono", monospace;
+            font-weight: 500;
+}
+a {
+            text-decoration: none;
+            font-size: 15px;
+            font-family: "Azeret Mono", monospace;
+            font-weight: 500;
+}
+p {
+            font-size: 15px;
+            font-family: "Azeret Mono", monospace;
+            font-weight: 500;
+}
+button {
+            font-family: "Azeret Mono", monospace;
+            font-size: 18px;
+            font-weight: 500;
+            background: none;
+            border: none;
+            cursor: pointer;
+}
+.container {
+            max-width: 1170px;
+            margin: auto;
+}
+.nav-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+}
+.nav-logo h2 {
+            color: #0D1321;
+            font-size: 28px;
+}
+.nav-button button {
+            border: 1px solid #0D1321;
+            color: #0D1321;
+            padding: 15px 20px;
+            border-radius: 8px;
+}
+
+
+
+
+
+
+
+footer {
+            padding: 10px 0px;
+}
