@@ -27,18 +27,15 @@ img {
 }
 ul li {
             list-style: none;
-            font-size: 15px;
             font-family: "Azeret Mono", monospace;
             font-weight: 500;
 }
 a {
             text-decoration: none;
-            font-size: 15px;
             font-family: "Azeret Mono", monospace;
             font-weight: 500;
 }
 p {
-            font-size: 15px;
             font-family: "Azeret Mono", monospace;
             font-weight: 500;
 }
@@ -69,9 +66,64 @@ button {
             color: #0D1321;
             padding: 15px 20px;
             border-radius: 8px;
+            transition: 0.5s;
 }
-
-
+.nav-button button:hover {
+            background-color: #0D1321;
+            color: #fff;
+}
+main {
+            background-image: url("assets/Hero-bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+}
+.hero-content {
+            padding: 30px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+}
+.hero-image {
+            max-width: 240px;
+            margin: auto;
+}
+.hero-title {
+            width: 990px;
+            margin: auto;
+}
+.hero-title h1 {
+            font-size: 3rem;
+            text-align: center;
+}
+.hero-desc {
+            width: 990px;
+            margin: auto;
+}
+.hero-desc p {
+            font-size: 1.2rem;
+            text-align: center;
+}
+.contact-link {
+            margin-top: 20px;
+            min-height: 40px;
+}
+.contact-link a {
+            padding: 20px 24px;
+            background-color: #0D1321;
+            color: #fff;
+            border-radius: 8px;
+            transition: 0.5s;
+}
+.contact-link a:hover {
+            background-color: #fff;
+            color: #0D1321;
+            border: 1px solid #0D1321;
+}
 
 
 
