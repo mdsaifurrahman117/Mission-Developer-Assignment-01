@@ -48,9 +48,11 @@ button {
             cursor: pointer;
 }
 .container {
-            max-width: 1170px;
+            max-width: 1140px;
             margin: auto;
 }
+
+/* header/navbar style start */
 .nav-content {
             display: flex;
             flex-direction: row;
@@ -72,6 +74,9 @@ button {
             background-color: #0D1321;
             color: #fff;
 }
+/* header/navbar style end */
+
+/* main/hero section style start */
 main {
             background-image: url("assets/Hero-bg.png");
             background-repeat: no-repeat;
@@ -124,9 +129,74 @@ main {
             color: #0D1321;
             border: 1px solid #0D1321;
 }
+/* main/hero section style end */
 
-
-
+/* development field style start */
+#development-field {
+            background-color: #f8f8f8;
+}
+.field-title {
+            width: 600px;
+            margin: auto;
+}
+.field-title h1 {
+            font-size: 2rem;
+            text-align: center;
+}
+.field-desc {
+            width: 990px;
+            margin: 50px auto;
+}
+.field-desc p {
+            font-size: 1rem;
+            text-align: center;
+}
+.field-content {
+            max-width: 950px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+}
+.field-content-area {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 50px;
+}
+.field-area-title {
+            width: 470px;
+}
+.field-area-title h3 {
+            color: #0D1321;
+            font-size: 1.5rem;
+}
+.field-area-desc {
+            width: 500px;
+            padding: 30px 0px;
+}
+.field-area-desc p {
+            font-size: 1rem;
+            color: #0D1321;
+}
+.field-area-button button {
+            border: 1px solid #0D1321;
+            padding: 12px 20px;
+            transition: 0.5s;
+}
+.field-area-button button:hover {
+            background-color: #0D1321;
+            color: #fff;
+}
+.field-content-area {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+}
+.field-area-image {
+            max-width: 280px;
+}
+/* development field style end */
 
 
 footer {
