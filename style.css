@@ -198,6 +198,44 @@ main {
 }
 /* development field style end */
 
+/* inspiration section style start */
+.inspiration-title {
+            max-width: 600px;
+            margin: auto;
+}
+.inspiration-title h1 {
+            font-size: 2rem;
+            text-align: center;
+}
+.inspiration-desc {
+            margin: 50px auto;
+            max-width: 990px;
+}
+.inspiration-desc p {
+            text-align: center;
+            font-size: 1.1rem;
+}
+.inspiration-video {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+}
+.inspiration-video video {
+            width: 100%;
+            border-radius: 8px;
+}
+
+
+
+
+/* inspiration section style end */
+
+
+
+
+
 
 footer {
             padding: 10px 0px;
