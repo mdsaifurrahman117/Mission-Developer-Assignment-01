@@ -226,13 +226,61 @@ main {
             width: 100%;
             border-radius: 8px;
 }
-
-
-
-
 /* inspiration section style end */
 
-
+/* target section style start */
+.target-title {
+            width: 990px;
+            margin: auto;
+}
+.target-title h1 {
+            text-align: center;
+            font-size: 2rem;
+}
+.target-desc {
+            width: 990px;
+            margin: 50px auto;
+}
+.target-desc p {
+            text-align: center;
+            font-size: 1.2rem;
+}
+.target-box-wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+}
+.target-box {
+            width: 370px;
+            padding: 40px;
+            border-radius: 8px;
+}
+.box-icon {
+            max-width: 60px;
+}
+.box-title {
+            padding: 10px 0px;
+}
+.box-desc {
+            padding: 10px 0px;
+}
+.box-desc p {
+            font-size: 0.8rem;
+}
+.box-link a {
+            text-decoration: underline;
+            color: #0D1321;
+}
+.html {
+            background-color: rgba(255, 75, 30, 0.075);
+}
+.css {
+            background-color: rgba(0, 102, 244, 0.075);
+}
+.javascript {
+            background-color: rgba(255, 221, 0, 0.075);
+}
+/* target section style end */
 
 
 
