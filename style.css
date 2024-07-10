@@ -345,7 +345,20 @@ main {
 }
 /* contact section style end */
 
-
+/* footer section style start */
 footer {
-            padding: 10px 0px;
+            padding: 30px 0px;
+            background-color: #f8f8f8;
 }
+.footer-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+}
+.social-link {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+}
+/* footer section style end */
