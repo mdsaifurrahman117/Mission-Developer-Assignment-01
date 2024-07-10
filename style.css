@@ -151,7 +151,7 @@ main {
             margin: 50px auto;
 }
 .field-desc p {
-            font-size: 1rem;
+            font-size: 1.2rem;
             text-align: center;
 }
 .field-content {
@@ -216,7 +216,7 @@ main {
 }
 .inspiration-desc p {
             text-align: center;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
 }
 .inspiration-video {
             max-width: 900px;
