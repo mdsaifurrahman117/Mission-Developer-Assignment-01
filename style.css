@@ -4,6 +4,9 @@
             padding: 0;
             box-sizing: border-box;
 }
+html {
+            scroll-behavior: smooth;
+}
 body {
             height: 100vh;
             width: 100vw;
@@ -282,7 +285,65 @@ main {
 }
 /* target section style end */
 
-
+/* contact section style start */
+.form-content {
+            padding: 65px 0px;
+            border-radius: 10px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/handshake.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+.contact-title {
+            width: 990px;
+            margin: auto;
+}
+.contact-title h1 {
+            color: #fff;
+            font-size: 2rem;
+            text-align: center;
+}
+.contact-desc {
+            width: 990px;
+            margin: 50px auto;
+}
+.contact-desc p {
+            color: #fff;
+            text-align: center;
+            font-size: 1.2rem;
+}
+.contact-form {
+            width: 990px;
+            margin: auto;
+}
+.contact-form form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            max-width: 990px;
+            margin: auto;
+}
+.contact-form form input {
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: none;
+            font-family: "Azeret Mono", monospace;
+            font-weight: 500;
+}
+.input-field {
+            width: 500px;
+}
+.input-button {
+            cursor: pointer;
+            transition: 0.5s;
+}
+.input-button:hover {
+            background-color: #0D1321;
+            color: #fff;
+}
+/* contact section style end */
 
 
 footer {
